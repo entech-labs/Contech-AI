@@ -63,11 +63,19 @@ Put **`b.`** in front: `b.1a2b3c4d-1111-2222-3333-444455556666`.
 
 ## Step 4 — Get the code
 
-**Easiest (no Git needed):** on this page click **Code → Download ZIP**, then unzip it to
-`C:\Users\<you>\Contech-AI`. (The ZIP unzips as `Contech-AI-main` — rename it or keep it; the
-setup script works from wherever it is.)
+**From the download link you were given (no Git needed):**
 
-**With Git:**
+1. Download **`Contech-AI.zip`** from the link.
+2. Right-click it → **Extract All…** → change the destination to `C:\Users\<you>` → **Extract**.
+   You get the folder `C:\Users\<you>\Contech-AI`.
+3. If Windows says the files came from the internet, run this once in PowerShell to unblock them:
+   ```powershell
+   Get-ChildItem C:\Users\$env:USERNAME\Contech-AI -Recurse | Unblock-File
+   ```
+
+The setup script works from wherever the folder is, so any location is fine.
+
+**From GitHub:** click **Code → Download ZIP** on this page (it unzips as `Contech-AI-main`), or:
 
 ```powershell
 cd $HOME
