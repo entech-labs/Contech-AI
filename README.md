@@ -1,3 +1,15 @@
+<p align="center">
+  <img src=".github/banner.svg" alt="Contech-AI — Autodesk Connector for Claude, by EnTech Labs" width="100%">
+</p>
+
+<p align="center">
+  <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-231f20"></a>
+  <img alt="Python 3.10+" src="https://img.shields.io/badge/python-3.10%2B-1565c0">
+  <img alt="Windows" src="https://img.shields.io/badge/platform-Windows%2010%20%2F%2011-1565c0">
+  <img alt="Read-only" src="https://img.shields.io/badge/access-read--only-2e6b4f">
+  <img alt="MCP" src="https://img.shields.io/badge/protocol-MCP-231f20">
+</p>
+
 # Contech-AI — Autodesk Connector for Claude
 
 Ask Claude questions about your **Autodesk Construction Cloud (ACC)** project in plain English —
@@ -79,7 +91,7 @@ The setup script works from wherever the folder is, so any location is fine.
 
 ```powershell
 cd $HOME
-git clone https://github.com/EnTech-Developers/Contech-AI.git
+git clone https://github.com/entech-labs/Contech-AI.git
 cd Contech-AI
 ```
 
@@ -250,3 +262,22 @@ All read-only. Up to 200 rows come back into the chat; ask for a CSV for everyth
 ## License
 
 [MIT](LICENSE) — free to use and adapt. Not affiliated with or endorsed by Autodesk or Anthropic.
+
+---
+
+## About
+
+Built by **[EnTech Labs](https://entechnology.io)** — the technology practice of
+[EnTech Engineering](https://entech.nyc), the group that builds the software behind our
+infrastructure work across the New York metropolitan region.
+
+This repository is the companion to our **Contech AI** training session. It is a teaching
+example: a small, readable MCP server you can pull apart, point at your own systems, and learn
+from. The same ~500 lines work against any API you already have — ACC is just the one we
+needed first.
+
+Questions from the session, or something unclear in the steps above? **[Open an
+issue](https://github.com/entech-labs/Contech-AI/issues)** — we would rather fix the
+instructions than answer the same question twice.
+
+*Not affiliated with or endorsed by Autodesk or Anthropic.*
