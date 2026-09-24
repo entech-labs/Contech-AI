@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "autodesk-connector": {
+      "command": "C:\\Users\\<YOUR-WINDOWS-USER>\\Contech-AI\\.venv\\Scripts\\python.exe",
+      "args": [
+        "C:\\Users\\<YOUR-WINDOWS-USER>\\Contech-AI\\acc_mcp.py"
+      ]
+    }
+  }
+}

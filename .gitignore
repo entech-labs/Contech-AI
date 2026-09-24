@@ -1,0 +1,14 @@
+# Secrets and your Autodesk sign-in — never commit
+.env
+.mcp_token.json
+.mcp_token.lock
+*.tmp
+*.pem
+
+# Local environment
+.venv/
+__pycache__/
+*.pyc
+
+# Exported project data
+exports/
