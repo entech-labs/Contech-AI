@@ -30,7 +30,7 @@
         font-size="21" fill="#4a4f55">Ask Claude about your Autodesk Construction Cloud project.</text>
 
   <!-- data path motif: you -> connector -> ACC -->
-  <g transform="translate(744,96)" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <g transform="translate(724,112) scale(0.88)" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
     <rect x="0" y="0" width="116" height="52" rx="6" fill="#ffffff" stroke="#231f20" stroke-width="2"/>
     <text x="58" y="31" font-size="14" fill="#231f20" text-anchor="middle">Claude</text>
 
